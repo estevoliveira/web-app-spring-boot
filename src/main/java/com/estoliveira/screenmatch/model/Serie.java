@@ -8,6 +8,6 @@ import com.fasterxml.jackson.databind.annotation.JsonAppend;
 public record Serie(
         @JsonAlias("Title")String titulo,
         @JsonAlias("Plot")String descricao,
-        @JsonAlias("imdbRating") float avaliacao,
-        @JsonAlias("totalSeasons") int temporadas) {
+        @JsonAlias("imdbRating") Float avaliacao,
+        @JsonAlias("totalSeasons") Integer temporadas) {
 }
