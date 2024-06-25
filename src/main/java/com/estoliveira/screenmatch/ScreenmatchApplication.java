@@ -1,20 +1,9 @@
 package com.estoliveira.screenmatch;
 
-import com.estoliveira.screenmatch.model.Epsodio;
-import com.estoliveira.screenmatch.model.Serie;
-import com.estoliveira.screenmatch.model.Temporada;
 import com.estoliveira.screenmatch.principal.Menu;
-import com.estoliveira.screenmatch.service.ConsumoApi;
-import com.estoliveira.screenmatch.service.ConverteDados;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.cfg.MapperBuilder;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @SpringBootApplication
 public class ScreenmatchApplication implements CommandLineRunner {
